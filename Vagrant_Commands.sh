@@ -1,4 +1,4 @@
-#Add a Box to Vagrant
+#Add a Box to Vagrant (copy a box to the local system)
 vagrant box add ubuntu/focal64
 
 #Create a Working Folder
