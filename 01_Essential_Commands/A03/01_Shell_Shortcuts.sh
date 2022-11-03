@@ -4,6 +4,9 @@ CTRL + a
 #Move to the end of the line
 CTRL + e
 
+#Clear the desktop
+CTRL + l
+
 #Repeat the last command and arguments
 !!
 
