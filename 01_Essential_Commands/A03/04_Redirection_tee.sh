@@ -7,6 +7,9 @@ ls -l /etc/hosts > file1
 #The default is redirecting STDOUT but we can use 2 to redirect error output
 ls -l /etc/Hosts 2> file2
 
+#>> append
+ls -l /etc/Hosts 2> file2
+
 ls /etc/hosts /etc/Hosts &> file3
 
 #The ipe or vertical bar takes the output of one command to the input of another
