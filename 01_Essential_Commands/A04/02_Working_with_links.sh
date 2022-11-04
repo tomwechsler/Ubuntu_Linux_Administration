@@ -44,6 +44,8 @@ pwd
 
 pwd -P
 
+cd ..
+
 ls
 
 ln -s file2 file3
