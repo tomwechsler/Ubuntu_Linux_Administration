@@ -6,7 +6,7 @@ vim +/google/ ~/hosts
 
 vimtutor
 
-sed -i 'i1 '#This is a hosts file' ~/hosts
+sed -i '1i #This is a hosts file' ~/hosts
 
 head
 
