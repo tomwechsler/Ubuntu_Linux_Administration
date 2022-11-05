@@ -12,7 +12,7 @@ chmod -vR a+X upper
 
 touch another_newfile
 
-ls-l another_newfile
+ls -l another_newfile
 
 #Does not apply to all, because of the umask
 chmod -v +x another_newfile
