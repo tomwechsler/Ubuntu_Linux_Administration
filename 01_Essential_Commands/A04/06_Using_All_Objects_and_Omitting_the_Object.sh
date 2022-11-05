@@ -1,4 +1,4 @@
-umask 007
+umask 7
 
 touch another_newfile
 

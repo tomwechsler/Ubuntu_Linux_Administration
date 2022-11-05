@@ -1,12 +1,31 @@
-touch file_perms
+#Do not forget, permissions are not cumulative!
+umask
 
-ls -l file_perms
--rw-rw-r-- 1 vagrant vagrant 0 Jan 15 13:15 file_perms 
+echo hello > new_file
 
-chmod -v 666 file_perms # or
+cat new_file
 
-chmod -v o+w file_perms
+ls -l new_file
 
+chmod -v 666 new_file # or
+
+#not cumulative
+cat new_file
+
+chmod -v g=rw new_file
+
+ls -l new_file
+
+#not cumulative
+cat new_file
+
+chmod -v 666 new_file
+
+cat new_file
+
+chmod -v o= new_file
+
+chmod -v g-w new_file
 
 
 The command chmod, change mode, is used to adjust the file permissions. Using the option -v we are able to display both
