@@ -7,7 +7,7 @@ cat new_file
 
 ls -l new_file
 
-chmod -v 666 new_file # or
+chmod -v 006 new_file # or
 
 #not cumulative
 cat new_file
