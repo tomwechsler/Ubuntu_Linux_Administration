@@ -17,13 +17,13 @@ cd etc
 
 pwd
 
-sudo /etc/hosts
+sudo rm /etc/hosts
 
 cat /etc/hosts
 
 cd /
 
-sudo tar -xf ~vagrant/etc.tar /etc/hosts
+sudo tar -xf ~vagrant/etc.tar etc/hosts
 
 !ca
 
