@@ -2,8 +2,8 @@ sudo apt install -y mlocate
 sudo updatedb
 locate -S
 locate "hosts"
-locate -i"hosts"
-locate -e -i"hosts"
+locate -i "hosts"
+locate -e -i "hosts"
 
 
 
