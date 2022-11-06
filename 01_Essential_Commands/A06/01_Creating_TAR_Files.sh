@@ -1,10 +1,31 @@
+#Let's check the size
 sudo du -sh /etc
-22M /etc
-sudo tar -cf etc.tar /etc 
-tar: Removing leading `/' from member names
-ls -lh etc.tar 
--rw-r--r--. 1 root root 21M Jan 18 10:49 etc.tar
 
+#We create a tar file
+sudo tar -cf etc.tar /etc 
+
+#What about the size
+ls -lh etc.tar 
+
+#-f for list
+tar -tf etc.tar
+
+#-x for extract
+tar -xf etc.tar
+
+cd etc
+
+pwd
+
+sudo /etc/hosts
+
+cat /etc/hosts
+
+cd /
+
+sudo tar -xf ~vagrant/etc.tar /etc/hosts
+
+!ca
 
 
 The command tar can be used to create file archives. Although, Tape Archives, they are more
