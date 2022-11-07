@@ -1,5 +1,7 @@
 pkaction
-sudo cat /etc/polkit1/localauthority.conf.d/51-ubuntu-admin.conf
+
+sudo cat /etc/polkit-1/localauthority.conf.d/51-ubuntu-admin.conf
+
 echo $$ 
 
 pkttyagent -p 5296
