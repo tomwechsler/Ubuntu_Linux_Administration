@@ -9,8 +9,5 @@ sudo shutdown -r now
 
 
 
-
-
-
 If the system is down for maintenance creating the file /etc/nologin, this stops non-root logins.
 The file is removed on a reboot!
