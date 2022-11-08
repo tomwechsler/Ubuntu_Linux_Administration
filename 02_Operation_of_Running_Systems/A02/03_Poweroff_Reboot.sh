@@ -1,5 +1,14 @@
+which poweroff
+
 ls -l $(which poweroff)
+
+ls -l $(which reboot)
+
+ls -l $(which halt)
+
 man poweroff
+
+
 
 
 
