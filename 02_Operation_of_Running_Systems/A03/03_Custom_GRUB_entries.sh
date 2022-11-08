@@ -1,4 +1,5 @@
 sudo nano /etc/grub.d/40_custom
+
 sudo update-grub
 
 
