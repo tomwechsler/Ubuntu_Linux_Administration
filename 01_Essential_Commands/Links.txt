@@ -1,0 +1,5 @@
+https://www.vagrantup.com/
+
+https://www.virtualbox.org/
+
+https://github.com/tomwechsler/Ubuntu_Linux_Administration
