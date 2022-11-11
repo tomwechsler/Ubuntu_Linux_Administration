@@ -1,6 +1,9 @@
 sudo apt update
+
 sudo apt-get update
+
 ssh 192.168.56.102 "sudo apt update"
+
 ssh 192.168.56.102 "sudo apt-get update"
 
 

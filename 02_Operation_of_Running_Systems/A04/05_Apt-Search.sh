@@ -1,5 +1,7 @@
 apt search apache
+
 apt search --names-only apache
+
 apt search --names-only '^apache'
 
 

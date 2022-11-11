@@ -1,5 +1,7 @@
 dpkg -l
+
 dpkg -L ufw
+
 dpkg -S /usr/share/ufw/after.rules
 sudo dpkg-reconfigure postfix
 

@@ -1,7 +1,11 @@
 sudo apt edit-sources
+
 apt-key list
+
 wget -O- https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+
 sudo add-apt-repository "deb https://apt.releases.hashicorp.com focal main"
+
 sudo apt edit-sources
 
 

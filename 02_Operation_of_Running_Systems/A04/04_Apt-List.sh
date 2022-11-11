@@ -1,8 +1,13 @@
 apt list
+
 apt list zz*
+
 apt list zzuf
+
 apt list --installed
+
 apt list --upgradable
+
 apt show zzuf
 
 
