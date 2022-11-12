@@ -1,7 +1,11 @@
-hostnamectl set-hostname
-timedatectl set-timezone 'Europe/London'
-localectl set-locale LANG=en_GB.utf8
+#System Uniformity
 
+sudo hostnamectl set-hostname ubuntu01
 
+cat /etc/hostname
 
-System Uniformity
+sudo timedatectl set-timezone 'Europe/Zurich'
+
+ls -l /etc/localtime
+
+sudo localectl set-locale LANG=de_CH.UTF-8
