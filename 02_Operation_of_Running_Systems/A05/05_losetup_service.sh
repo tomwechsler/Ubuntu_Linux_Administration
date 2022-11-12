@@ -6,13 +6,9 @@ After=systemd-udevd.service
 
 [Service]
 Type=oneshot
-ExecStart=/sbin/losetup /dev/loop1 /root/disk1
-ExecStart=/sbin/partprobe /dev/loop1
+ExecStart=/sbin/losetup /dev/loop10 /root/disk1
+ExecStart=/sbin/partprobe /dev/loop10
 RemainAfterExit=no
 
 [Install]
 WantedBy=local-fs.target
-
-
-
-losetup.service

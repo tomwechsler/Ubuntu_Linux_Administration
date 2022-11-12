@@ -1,6 +1,6 @@
 pstree
 
-pstree -p1 -f
+ps -p1 -f
 
 ls -l /sbin/init
 
