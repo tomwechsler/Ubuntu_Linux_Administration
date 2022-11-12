@@ -6,9 +6,13 @@ apt list zzuf
 
 apt list --installed
 
+apt list --installed | wc -l
+
 apt list --upgradable
 
-apt show zzuf
+sudo apt upgrade ansible
+
+apt show ansible
 
 
 

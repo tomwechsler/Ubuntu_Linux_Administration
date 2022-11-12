@@ -1,6 +1,6 @@
 ls -l /var/cache/apt/pkgcache.bin
 
-sudo apt update
+sudo apt-get update
 
 ls -l /var/cache/apt/pkgcache.bin
 
