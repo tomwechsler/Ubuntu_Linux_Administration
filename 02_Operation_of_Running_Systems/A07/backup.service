@@ -2,4 +2,4 @@
 Description="Back up the etc directory"
 
 [Service]
-ExecStart=tar -czf /root/etc.tgz /etc
+ExecStart=tar -czf /root/etc.tar.gz /etc
