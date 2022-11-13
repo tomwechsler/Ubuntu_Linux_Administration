@@ -1,9 +1,11 @@
+sudo systemctl status cron
+
 grep '^#' /etc/crontab
 
 ls /etc/cron.d/
 
 sudo nano /etc/cron.d/test
-*/10 * * * * root date >> /tmp/date
+*/10 10-11 * * * root date >> /tmp/date
 
 
 

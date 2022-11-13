@@ -1,8 +1,18 @@
 crontab -l
 
 crontab -e
+* * * * * date >> /tmp/date
+
+sudo journalctl -f
 
 crontab -r
+
+#By the way did our backup work?
+sudo -i
+
+ls -l
+
+date
 
 
 

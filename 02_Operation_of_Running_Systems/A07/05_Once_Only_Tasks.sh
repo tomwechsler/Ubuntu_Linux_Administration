@@ -2,9 +2,9 @@ sudo systemctl status atd
 
 atq
 
-at noon
+at teatime
 
-at 10:51 July 25 2023
+date
 
 atq
 
