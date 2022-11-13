@@ -1,9 +1,26 @@
 file info.sh
-sed -i '1i#!/bin/bash' info.sh
+
+cp info.sh info2.sh
+
+sed -i '1i#!/bin/bash' info*
+
 file info.sh
-chmod a+x info.sh
+
+chmod -v a+x info.sh
+
 ./info.sh
 
+echo $PATH
+
+PATH=$PATH:/home/vagrant/shellscriptinh
+
+echo $PATH
+
+cd
+
+info.sh
+
+cd -
 
 
 Adding a shebang line to the script tells the system which interpreter to use. Adding
