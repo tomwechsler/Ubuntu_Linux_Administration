@@ -1,0 +1,5 @@
+[Unit]
+Description="Back up the etc directory"
+
+[Service]
+ExecStart=tar -czf /root/etc.tgz /etc
