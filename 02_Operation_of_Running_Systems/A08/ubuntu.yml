@@ -34,3 +34,4 @@
     - name: RestartMP
       service:
         name: multipathd
+        state: restarted
