@@ -5,7 +5,7 @@ grep '^#' /etc/crontab
 ls /etc/cron.d/
 
 sudo nano /etc/cron.d/test
-*/10 10-11 * * * root date >> /tmp/date
+*/10 9-17 * * * root date >> /tmp/date
 
 
 

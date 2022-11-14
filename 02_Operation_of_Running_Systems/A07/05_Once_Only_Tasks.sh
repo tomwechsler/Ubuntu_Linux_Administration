@@ -3,15 +3,24 @@ sudo systemctl status atd
 atq
 
 at teatime
-
 date
+#CTRL + d to exit at
+
+atq
+
+#Be careful not to mistype
+at 13:25 Nov 14 2022
+ls /etc
+#CTRL + d to exit at
 
 atq
 
 atrm 2
 
-at -c 1
+at 13:25 Nov 14 2022
+ls /etc
 
+at -c 1
 
 
 The atd can be used to scheduled tasks that are not needed on a regular basis.

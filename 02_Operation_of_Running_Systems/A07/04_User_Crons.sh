@@ -5,14 +5,13 @@ crontab -e
 
 sudo journalctl -f
 
+#Remove the crontab file
 crontab -r
 
 #By the way did our backup work?
-sudo -i
+sudo ls /root
 
-ls -l
-
-date
+sudo ls /tmp
 
 
 
