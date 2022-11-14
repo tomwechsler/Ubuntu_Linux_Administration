@@ -1,5 +1,5 @@
 [Unit]
-Description="Run backup of etc once a day"
+Description="Run backup of /etc once a day"
 
 [Timer]
 OnBootSec=5min
