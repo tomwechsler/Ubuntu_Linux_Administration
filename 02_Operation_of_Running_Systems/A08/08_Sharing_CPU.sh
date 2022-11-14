@@ -1,8 +1,13 @@
-sleep 1000&
+sleep 1000 &
+
 ps -lfp $(pgrep sleep)
-nice -n10 sleep 1000&
+
+nice -n10 sleep 1000 &
+
 ps -lfp $(pgrep sleep)
+
 renice -n 19 -p <PID>
+
 renice -n 15 -p <PID>
 
 
