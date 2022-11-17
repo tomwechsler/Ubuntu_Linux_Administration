@@ -27,7 +27,7 @@ sudo visudo
 #ATTENTION to the syntax
 sudo visudo -f /etc/sudoers.d/bob
 
-bob ALL=(root) NOPASSWD: /usr/bin/passwd, !/usr/bin/passwd
+bob ALL=(root) NOPASSWD: /usr/bin/passwd, !/usr/bin/passwd root
 
 #Lets make a mistake
 sudo visudo -f /etc/sudoers.d/bob

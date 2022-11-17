@@ -32,6 +32,8 @@ pwd
 
 exit
 
+sudo passwd -l root
+
 
 
 Using the command su we can change to the root account, or any account that we know the
