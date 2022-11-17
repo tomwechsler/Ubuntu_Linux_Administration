@@ -1,10 +1,17 @@
 sudo useradd user1
+
 sudo useradd --help
+
 tail -n1 /etc/passwd
+
 getent passwd user1
+
 man 5 passwd
+
 id user1
+
 ls /home
+
 sudo useradd -m -s /usr/bin/bash -G sudo user2
 
 

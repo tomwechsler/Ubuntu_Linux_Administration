@@ -1,11 +1,19 @@
 sudo usermod -G staff user2
+
 id user2
+
 sudo usermod -aG admin,sudo user2
+
 id user2
+
 sudo userdel -r user5
+
 sudo userdel user3
+
 ls /home
+
 sudo find /home /var -nouser
+
 !! -delete
 
 
