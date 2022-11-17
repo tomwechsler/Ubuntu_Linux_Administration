@@ -2,9 +2,13 @@ ls -la /etc/skel
 
 sudo ln -s /usr/share/doc /etc/skel/doc
 
-sudo useradd user4
+ls -la /etc/skel
 
-ls ~user4
+sudo useradd user5
+
+ls -la ~user5
+
+ls -la ~user3
 
 
 
