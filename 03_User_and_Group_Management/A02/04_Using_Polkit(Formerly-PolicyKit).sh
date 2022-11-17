@@ -1,10 +1,10 @@
 #Open an second terminal/shell
 
 #In the first shell
-PS1="Windows1 $ "
+PS1="Window1 $ "
 
 #In the second shell
-PS1="Windows2 $ "
+PS1="Window2 $ "
 
 id
 
