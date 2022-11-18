@@ -1,7 +1,11 @@
 ls -l /etc/shadow
+
 ls -l /usr/bin/passwd
+
 sudo cat /etc/shadow
+
 sudo getent shadow vagrant
+
 man 5 shadow
 
 
