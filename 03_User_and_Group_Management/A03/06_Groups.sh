@@ -1,7 +1,11 @@
 cat /etc/group
+
 getent group sudo
+
 sudo groupadd sales
+
 sudo groupmod -n grp-sales sales
+
 sudo groupdel grp-sales
 
 
