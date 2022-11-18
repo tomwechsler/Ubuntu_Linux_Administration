@@ -1,6 +1,9 @@
 chfn
+
 sudo adduser user6
+
 sudo apt install -y finger
+
 finger user6
 
 
