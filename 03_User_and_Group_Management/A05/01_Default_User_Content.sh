@@ -1,5 +1,7 @@
 sudo useradd -m test_user
+
 ls -A ~test_user
+
 ls -A /etc/skel
 
 
