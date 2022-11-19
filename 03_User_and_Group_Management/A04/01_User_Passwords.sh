@@ -1,6 +1,6 @@
 sudo useradd -m user8 -s /bin/bash
 
-#To set the password we -p or --password (but it is not so easy)
+#To set the password we use -p or --password (but it is not so easy)
 sudo useradd --help
 
 sudo useradd -m user9 -s /bin/bash -p $(openssl passwd -6 P@ssw0rd)
