@@ -1,5 +1,6 @@
 echo "session optional pam_mkhomedir.so" | sudo tee -a /etc/pam.d/common-session
-su - gandalf
+
+su - alf
 
 exit
 

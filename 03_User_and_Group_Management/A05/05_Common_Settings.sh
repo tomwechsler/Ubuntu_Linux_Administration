@@ -1,6 +1,9 @@
 ls /etc/profile
+
 ls /etc/profile.d
+
 ls /etc/bash.bashrc
+
 echo "umask027" | sudo tee /etc/profile.d/umask.sh
 
 
