@@ -1,0 +1,37 @@
+# Place in directory you run Vagrant from, alongside the Vagrantfile
+- name: Configure Ubuntu
+  hosts: all
+  become: true
+  gather_facts: false
+  tasks:
+    - name: Update Package Cache and Upgrade Existing Packages
+      apt:
+        update_cache: true
+        upgrade: true
+
+    - name: Ensure SSH Allows Password Authentication
+      lineinfile:
+        path: /etc/ssh/sshd_config
+        line: PasswordAuthentication yes
+        regexp: '^PasswordAuthentication .*$'
+      notify: RestartSSH
+    - name: correct multipathd
+      copy:
+        dest: /etc/multipath.conf
+        content: |
+          defaults {
+            user_friendly_names yes
+          }
+          blacklist {
+            devnode "^sd[a-b]"      
+          }
+      notify: RestartMP
+  handlers:
+    - name: RestartSSH
+      service:
+        name: ssh
+        state: restarted
+    - name: RestartMP
+      service:
+        name: multipathd
+        state: restarted
