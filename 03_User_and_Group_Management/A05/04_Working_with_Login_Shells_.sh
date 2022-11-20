@@ -12,8 +12,9 @@ sed –i '/^#umask/s/^#//' .profile ##uncomment the umask setting
 
 grep 'umask' .profile
 
-#To check the settings use the source command or logout/login
-source .profile
+#To check the settings logout and login
+
+umask
 
 #Undo the settings
 sed –i '/^umask/s/^/#/' .profile ##to comment the line
