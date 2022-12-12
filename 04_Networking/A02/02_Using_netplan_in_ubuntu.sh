@@ -51,4 +51,4 @@ sudo netplan apply
 #SSH to ubuntu1 and ping the IP from ubuntu2
 vagrant ssh ubuntu1
 
-ping 
+ping -c 3 
