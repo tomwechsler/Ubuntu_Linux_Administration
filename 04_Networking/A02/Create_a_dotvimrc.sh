@@ -1,5 +1,4 @@
 #Create a dot vimrc
-
 vim .vimrc
 
 syntax on
