@@ -1,6 +1,6 @@
 #Prereqs: 2 SSH Sessions to unbuntu1 and 1 SSH Session to ubuntu2
 
-#List the IP cobfiguration
+#List the IP configuration
 ip -4 a s enp0s8
 
 #The netplan help
@@ -10,7 +10,7 @@ netplan --help
 netplan info
 
 #Check the IP lease
-netplan ip lease enp0s3
+netplan ip leases enp0s3
 
 #The netplan config file
 ls /etc/netplan
@@ -51,4 +51,10 @@ sudo netplan apply
 #SSH to ubuntu1 and ping the IP from ubuntu2
 vagrant ssh ubuntu1
 
-ping -c 3 
+ping -c 3
+
+
+
+Ubuntu uses netplan to manage networking configuration. The files are written in YAML.
+We can add new IP addresses to netplan to persist the network configuration, even with the
+ability to have an automated rollback in the event of a misconfiguration.
