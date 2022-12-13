@@ -2,7 +2,6 @@
 hostnamectl
 
 #Are there any "machine" file
-
 ls -l /etc/mach*
 
 #Hostname is not like hostname
