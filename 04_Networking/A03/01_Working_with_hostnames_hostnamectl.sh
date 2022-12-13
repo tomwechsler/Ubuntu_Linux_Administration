@@ -54,3 +54,7 @@ hostnamectl
 
 #The os-release file
 cat /etc/os-release
+
+
+The hostnamectl command can consolidate and display machine information. It can also
+manage configuring fresh data via the systemd-hostnamed service.
