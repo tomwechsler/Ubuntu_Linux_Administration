@@ -1,3 +1,5 @@
+#Test environment reset
+
 #The system is listens on
 ss -ntl
 
@@ -22,12 +24,14 @@ sudo apt install -y nmap
 #The 1000 most common ports
 nmap -v -oG -
 
+sort -r -k3 /usr/share/nmap/nmap-services | more
+
 #The top ten
-nmap --top-port 10 -oG -
+nmap --top-port 10 -v -oG -
 
+nmap -oG grepable.txt 192.168.56.0/24
 
-
-
+grep "Host: 192.168.56.102" grepable.txt
 
 
 Connecting to a service across the network requires the service to be started and listening on a

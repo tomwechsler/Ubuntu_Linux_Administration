@@ -1,5 +1,5 @@
 #sysctl is used to modify kernel parameters at runtime
-sysctl
+sysctl -a
 
 #Lets have a look at ip_forward
 sysctl -ar ip_forward 
