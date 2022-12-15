@@ -2,7 +2,7 @@
 sudo iptables -L
 
 #List the iptables package
-sudo apt list '*.iptables*' 
+sudo apt list '*iptables-*' 
 
 #Install the iptables package
 sudo apt install -y iptables.persistent 
