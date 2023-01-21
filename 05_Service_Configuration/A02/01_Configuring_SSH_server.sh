@@ -1,4 +1,4 @@
-#Working on ubuntu1
+#Working on ubuntu2
 
 #First we create a user
 sudo useradd -m -s /bin/bash tux
