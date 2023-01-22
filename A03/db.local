@@ -1,0 +1,11 @@
+$TTL    8h
+@       IN      SOA     local. root.local. (
+                        1               ; Serial
+                        8h              ; Refresh
+                        4h              ; Retry
+                        1w              ; Expire
+                        1h )            ; Negative Cache TTL
+;
+@       IN      NS      ubuntu2.local.
+ubuntu2.local.  IN      A       192.168.56.102
+ubuntu1.local.  IN      A       192.168.56.101

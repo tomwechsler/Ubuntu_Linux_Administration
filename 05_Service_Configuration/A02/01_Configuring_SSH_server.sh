@@ -28,3 +28,9 @@ sudo sshd -t
 
 #Restart the service
 sudo systemctl restart ssh
+
+
+
+Viewing the running configuration is made via sshd -T. We can update the configuration in the
+sshd_config file and restart the server. We want to ensure that password authentication is
+turned on and the root user cannot log in via SSH.
