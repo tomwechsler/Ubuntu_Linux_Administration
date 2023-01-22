@@ -1,7 +1,7 @@
 #Working on ubuntu1
 
 #List the options with TABTAB
-ssh -o Preferred TABTAB
+ssh -o TABTAB
 
 #Use some options (this will not work)
 ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no tux@192.168.56.102
