@@ -22,7 +22,7 @@ sudo vim /etc/netplan/50-cloud-init.yaml
 #First some vim settings
 :set ts=2 sw=2
 
-dhcp-overrides:
+dhcp4-overrides:
   use-dns: false
 nameservers:
   addresses:
@@ -42,7 +42,7 @@ cat /etc/resolv.conf
 resolvectl
 
 #Lets create a new symbolic link
-sudo lf -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf
+sudo ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf
 
 #Now it looks better
 cat /etc/resolv.conf
