@@ -23,7 +23,7 @@ PermitRootLogin no
 #Check the config
 sudo sshd -T | grep -E '(password|permit)'
 
-#-t will just check thw config without an output
+#-t will just check the config without an output
 sudo sshd -t
 
 #Restart the service
