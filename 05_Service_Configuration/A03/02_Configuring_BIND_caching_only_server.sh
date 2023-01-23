@@ -35,7 +35,7 @@ ss -ntl
 #Change the DNS server
 sudo vim /etc/netplan/50-cloud-init.yaml
 
-dhcp-overrides:
+dhcp4-overrides:
   use-dns: false
 nameservers:
   addresses: [192.168.56.102]
