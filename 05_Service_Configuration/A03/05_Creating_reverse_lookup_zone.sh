@@ -29,4 +29,4 @@ dig +short -x 192.168.56.102
 
 
 Reverse zones allows us to query names from IP addresses. A reverse zone is the 
-IP address reversed with in-addr.arpa at the and. We have PTR records in place of A records.
+IP address reversed with in-addr.arpa at the end. We have PTR records in place of A records.

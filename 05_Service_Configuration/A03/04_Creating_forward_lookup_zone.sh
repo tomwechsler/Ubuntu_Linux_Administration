@@ -38,7 +38,7 @@ dig +short local. NS
 
 
 We want to host the DNS domain "local". We will have hostname or address records for
-ubuntu1.local, ubuntu2.local nd so on. The first step is to create the zone in the configuration
+ubuntu1.local, ubuntu2.local and so on. The first step is to create the zone in the configuration
 file.
 
 We can check the zone and reload. From both systems we should be able to ping ubuntu1 and
