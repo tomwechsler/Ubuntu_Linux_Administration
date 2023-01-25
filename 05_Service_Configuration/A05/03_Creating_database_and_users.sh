@@ -13,13 +13,13 @@ sudo mysql -u root mysql
 
 #Show the users
 -> SELECT User, Host FROM user;
--> SELECT User, Host FROM user; WHERE Host <> 'localhost';
+-> SELECT User, Host FROM user WHERE Host <> 'localhost';
 
 #Creta a new user
 -> CREATE User 'bob'@'192.168.56.0/255.255.255.0' IDENTIFIED BY 'Password1'; 
 
 #Check
--> SELECT User, Host FROM user; WHERE Host <> 'localhost'; 
+-> SELECT User, Host FROM user WHERE Host <> 'localhost'; 
 -> exit 
 
 #This will not work
@@ -37,7 +37,7 @@ sudo mysql -u root mysql
 
 #Create a new user and set the permissions to the sales database
 -> GRANT ALL PRIVILEGES ON sales.* to 'brent'@'192.168.56.0/255.255.255.0' IDENTIFIED BY 'Password1';
--> SELECT User, Host FROM user; WHERE Host <> 'localhost';
+-> SELECT User, Host FROM user WHERE Host <> 'localhost';
 -> exit
 
 #SWITCH TO UBUNTU1
