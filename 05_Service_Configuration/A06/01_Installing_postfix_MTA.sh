@@ -6,6 +6,9 @@ ss -ntl
 #Install postfix and mail client
 sudo apt install postfix mailutils
 
+#General type: Internet Site
+#System mail name: local
+
 #Check the ports again
 ss -ntlp
 
