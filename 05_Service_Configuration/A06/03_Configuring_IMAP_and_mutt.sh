@@ -6,7 +6,7 @@ sudo apt install dovecot-imapd
 #Check the ports
 ss -ntl #993 IMAPS 143 IMAP
 
-ss -ntlp
+sudo ss -ntlp
 
 #The self-signed certificate (Add your own certificate for an enterprise setup)
 head -n 15 /etc/dovecot/conf.d/10-ssl.conf
