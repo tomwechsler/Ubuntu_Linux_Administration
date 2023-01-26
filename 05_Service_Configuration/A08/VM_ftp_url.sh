@@ -1,0 +1,1 @@
+http://ftp.ubuntu.com/ubuntu/dists/focal/main/installer-amd64/
