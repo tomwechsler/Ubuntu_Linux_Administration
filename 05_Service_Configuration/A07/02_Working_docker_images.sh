@@ -33,7 +33,7 @@ docker image inspect hello-world -f '{{ .RepoTags }}'
 docker image ls 
 
 #Find the image
-find /var/lib/docker -name "<image id>*" 
+sudo find /var/lib/docker -name "feb5d9fea6a5*" 
 
 #Search for an image in docker hub
 docker search ubuntu

@@ -15,7 +15,7 @@ CMD ["nginx", "-g", "daemon off;" ]
 #Save and exit
 
 #Do not forget the dot at the end
-docker image  build -t customweb .
+docker image build -t customweb .
 
 #List the images
 docker image ls
@@ -27,7 +27,7 @@ docker container rm -f web
 docker container run -d --name web -p 8000:80 customweb
 
 #Test
-w3m localhost:8000
+curl localhost:8000
 
 #And clean up
 docker container rm -f web

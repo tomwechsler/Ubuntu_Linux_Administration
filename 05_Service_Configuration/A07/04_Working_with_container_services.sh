@@ -14,13 +14,14 @@ docker container inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{e
 docker container inspect web | grep -i address #A bit easier
 
 #The default page
-w3m <ip address>
+curl <ip address>
 
 #Remove the container
 docker container rm -f web
 
 #Create a directory and a new index.html file
-mkdir web; echo hello > web/index.html
+mkdir web 
+echo hello > web/index.html
 
 #Port and volume mapping
 docker container run -d --name web -p 8000:80 -v /home/vagrant/web/:/usr/share/nginx/html -p 8000:80 nginx
