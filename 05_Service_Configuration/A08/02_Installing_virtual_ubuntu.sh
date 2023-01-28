@@ -11,9 +11,9 @@ bash install_kvm.sh
 id
 
 #Add some groups
-sudo useradd -aG vagrant kvm
+sudo usermod -aG kvm tom
 
-sudo useradd -aG $USER libvirt
+sudo usermod -aG libvirt tom
 
 #Group membership of vagrant
 id

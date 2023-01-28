@@ -1,7 +1,7 @@
 #Working on ubuntu2
 
 #Install vagrant
-sudo apt -y vagrant
+sudo apt install -y vagrant
 
 #Create a direcrory and move in
 mkdir test && cd test 
