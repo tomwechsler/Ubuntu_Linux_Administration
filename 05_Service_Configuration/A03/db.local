@@ -7,5 +7,5 @@ $TTL    8h
                         1h )            ; Negative Cache TTL
 ;
 @       IN      NS      ubuntu2.local.
-ubuntu2.local.  IN      A       192.168.56.102
-ubuntu1.local.  IN      A       192.168.56.101
+ubuntu2.local.  IN      A       192.168.56.104
+ubuntu1.local.  IN      A       192.168.56.103
