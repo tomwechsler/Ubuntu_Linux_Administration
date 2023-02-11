@@ -1,0 +1,16 @@
+[Unit]
+Description=Set up loop device for RAID
+DefaultDependencies=no
+Before=local-fs.target
+After=systemd-udevd.service
+Required=systemd-udevd.service
+
+[Service]
+Type=oneshot
+ExecStart=/sbin/losetup /dev/loop5 /root/mirror1
+ExecStart=/sbin/losetup /dev/loop6 /root/mirror2
+Timeout=60
+RemainAfterExit=no
+
+[Install]
+WantedBy=local-fs.target

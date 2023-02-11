@@ -1,0 +1,11 @@
+[Unit]
+Description=Key disk
+
+[Mount]
+What=/dev/disk/by-uuid/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+Where=/key/
+Type=xfs
+Options=defaults
+
+[Install]
+WantedBy=multi-user.target

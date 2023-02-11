@@ -1,0 +1,16 @@
+[Unit]
+Description=Set up loop device
+DefaultDependencies=no
+Before=local-fs.target
+After=systemd-udevd.service
+Required=systemd-udevd.service
+
+[Service]
+Type=oneshot
+ExecStart=/sbin/losetup /dev/loop3 /root/disk1
+ExecStart=/sbin/partprobe /dev/loop3
+Timeout=60
+RemainAfterExit=no
+
+[Install]
+WantedBy=local-fs.target
