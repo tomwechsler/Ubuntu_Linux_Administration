@@ -1,4 +1,4 @@
-#Start with the blcok devices
+#Start with the block devices
 lsblk
 
 #The sdb partition is vagrant specific
