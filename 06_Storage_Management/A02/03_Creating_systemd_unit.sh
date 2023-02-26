@@ -24,7 +24,7 @@ sudo systemctl daemon-reload
 lsblk
 
 #Start our unit
-sudo systemctl enbale --now disk1.service
+sudo systemctl enable --now disk1.service
 
 #Now it is
 lsblk
