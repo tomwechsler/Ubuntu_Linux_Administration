@@ -1,5 +1,5 @@
 #MSDOS = 4 Primary max. Size 2TB
-#GPT = theoretical 128 Partitions (SCSI Driver max 15 Partitions) max. Size 32EB
+#GPT (GUID Partition Table (GPT)) = theoretical 128 Partitions (SCSI Driver max 15 Partitions) max. Size 32EB
 
 #Working on ubuntu1
 
