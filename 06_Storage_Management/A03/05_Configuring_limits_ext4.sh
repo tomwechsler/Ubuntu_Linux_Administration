@@ -1,25 +1,80 @@
-#Working on ubuntu1
+#Working on ubuntu1 in a root session
 
+sudo -i
 
+#First we check the kernel version
 uname -r
 
-ls -l /boot; sudo reboot
+#Do we use the latest kernel
+ls -l /boot
 
-uname -r ; find /lib/modules/ -type f -name '*quota_v*.ko*'
+#If needed to use the latest kernel
+reboot
 
-sudo apt install linux-image-extra-virtual quota
+#Check again
+uname -r
 
-sudo modprobe -v quota_v1 ; sudo modprobe -v quota_v2 
+#Do we have the modules
+find /lib/modules/ -type f -name '*quota_v*.ko*'
 
-sudo mkfs.ext4 -O quota /dev/loop3p1 
+#Install the packages
+apt install linux-image-extra-virtual quota
 
-sudo mount /dev/loop3p1 /shared_ext4 
+#Do we have the modules
+find /lib/modules/ -type f -name '*quota_v*.ko*'
 
-sudo quotaon -vua
+#Reboot the system or load the modules
+modprobe -v quota_v1 
+modprobe -v quota_v2 
 
-sudo equota vagrant
+#Unmount
+umount /shared_ext4
 
-sudo repquota -uv /shared_ext4
+#There are two ways to enable quota support (this way generates a new UUID)
+mkfs.ext4 -O quota /dev/loop3p1 #Copy the new UUID
+
+#Edit the fstab file with the new UUID
+vim /etc/fstab
+
+#Save and exit
+
+#The second way to support quota (no new UUID)
+tune2fs -O quota /dev/loop3p1
+
+#Use mount
+mount -a
+
+#Enable quota for all ext4 filesystems
+quotaon -vua #-v = verbose, -u = user quota, -a = all filesystems
+
+#Create the quota
+equota vagrant
+
+#Set the quota on blocks/soft/hard (20000 / 25000)
+
+#Save and exit
+
+#Generate a report
+repquota -uv /shared_ext4
+
+#By creating a new file system the permissions were removed.
+ls -ld /shared_ext4
+chmod 1777 /shared_ext4
+
+#Create a file
+sudo -u vagrant fallocate -l 18M /shared_ext4/file1
+
+#Generate a report
+repquota -uv /shared_ext4
+
+#Create a file
+sudo -u vagrant fallocate -l 4M /shared_ext4/file2
+
+#Generate a report (we hit the soft limit)
+repquota -uv /shared_ext4
+
+#Create a file (does not work)
+sudo -u vagrant fallocate -l 4M /shared_ext4/file3
 
 
 
