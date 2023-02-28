@@ -10,7 +10,7 @@ fallocate -l 500M /root/disk2
 fallocate -l 500M /root/disk3
 
 #What do we have
-ls -lh disk
+ls -lh disk*
 
 #The losetup (losetup is used to associate loop devices with regular files or block devices)
 losetup
