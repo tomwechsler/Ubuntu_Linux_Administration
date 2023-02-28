@@ -22,9 +22,9 @@ UUID="the uuid" /shared_ext4 ext4 defaults 0 0
 #Save and exit
 
 #Umount
-sudo unmount /shared_ext4
+sudo umount /shared_ext4
 
-sudo unmount /shared_xfs
+sudo umount /shared_xfs
 
 #But what about the fstab fields
 man fstab
