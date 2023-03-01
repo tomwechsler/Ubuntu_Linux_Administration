@@ -9,7 +9,7 @@ df -h /shared_lvm
 vgs
 
 #Extend the logical volume
-lvextend -r -l +100%FREE -r vg1/lv1 #-l = Extend or set the logical volume size in units of logical extents; 
+lvextend -r -l +100%FREE vg1/lv1 #-l = Extend or set the logical volume size in units of logical extents; 
 #-r = Resize underlying filesystem together with the logical volume
 
 #Check the size
