@@ -7,11 +7,21 @@
 
 sudo -i
 
+#List the block device
+lsblk
+
+#Create two new files
 fallocate -l 500M /root/mirror1 
 fallocate -l 500M /root/mirror2 
 
+#Link the files
 diska=$(losetup -f /root/mirror1 --show)
+echo $diska
 
+diskb=$(losetup -f /root/mirror2 --show)
+echo $diskb
+
+#Create the partitions
 parted $diska mklabel msdos \
 
 cat /proc/mdstat
