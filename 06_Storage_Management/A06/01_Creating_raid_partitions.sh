@@ -22,8 +22,11 @@ diskb=$(losetup -f /root/mirror2 --show)
 echo $diskb
 
 #Create the partitions
-parted $diska mklabel msdos \
+parted $diska mklabel msdos mkpart primary 0% 100% set 1 raid on print
 
+parted $diskb mklabel msdos mkpart primary 0% 100% set 1 raid on print
+
+#Do we have any raid
 cat /proc/mdstat
 
 
