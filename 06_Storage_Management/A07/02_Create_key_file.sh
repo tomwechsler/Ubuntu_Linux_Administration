@@ -6,7 +6,7 @@ sudo -i
 lsblk
 
 #Create a partition
-parted /dev/sdd mklabel mkpart primary 0% 100% 
+parted /dev/sdd mklabel msdos mkpart primary 0% 100% print
 
 #Create a filesystem
 mkfs.xfs /dev/sdd1
