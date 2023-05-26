@@ -14,5 +14,3 @@ tree
 
 
 
-The command cpio means that we can copy our standard IO as a backup or a
-restore/ We can search for files with find.

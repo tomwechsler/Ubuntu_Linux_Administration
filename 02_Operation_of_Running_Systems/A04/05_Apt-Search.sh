@@ -16,5 +16,3 @@ apt show apache2
 
 
 
-We can search for packages by name or description: We can also drill down to
-search just on the name or add regular expressions.

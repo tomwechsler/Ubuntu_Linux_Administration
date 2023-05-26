@@ -22,7 +22,3 @@ info.sh
 
 cd -
 
-
-Adding a shebang line to the script tells the system which interpreter to use. Adding
-the execute permission allows independent execution, without needing to run bash
-to open the file.

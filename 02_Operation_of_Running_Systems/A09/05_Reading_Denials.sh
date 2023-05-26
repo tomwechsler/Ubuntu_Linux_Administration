@@ -8,5 +8,3 @@ sudo aa-notify -s 1 -v
 
 
 
-The profile has no rules, this means that nothing can be executed. We can see the denials with
-journalctl or from aa-notify.

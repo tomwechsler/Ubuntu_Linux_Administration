@@ -16,6 +16,3 @@ sudo DEBIAN_PRIORITY=low apt install -y postfix
 
 
 
-Using apt install we can install a package or list of packages. The delete them we can
-use remove or purge. The latter will also remove configuration files. Dependency
-packages are added automatically but the are not automatically removed.

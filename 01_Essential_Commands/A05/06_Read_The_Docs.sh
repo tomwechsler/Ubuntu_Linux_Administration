@@ -12,4 +12,3 @@ man man
 
 
 
-How ever much you may not like this, sometimes the documentation does help!

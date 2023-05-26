@@ -31,7 +31,3 @@ pkexec visudo
 #Switch to the new session and choose the account/password
 
 
-
-Designed more for desktop systems we have PolKit. A separate authenticator program is
-required to authenticate users. Make sure your user has a password and you belong to the sudo
-group. We require the authenticator to monitor the process in another window.

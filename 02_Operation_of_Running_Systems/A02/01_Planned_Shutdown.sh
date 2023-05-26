@@ -27,6 +27,3 @@ ls /run
 sudo shutdown -h now
 
 
-
-The advantage of the shutdown command is that it can be scheduled for sometime in the
-future.

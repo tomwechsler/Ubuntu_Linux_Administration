@@ -21,6 +21,4 @@ chmod -v a+x another_newfile
 
 
 
-Often, it is incorrectly thought that symbolic permissions are simpler and only used when you start your administration career.
-This is far from the case as we see with -X. The upper-case X is used to set execute only of direcrories or files where execute is 
-already set in one or more objects.
+

@@ -20,5 +20,3 @@ grep '^#.*yes$' /etc/ssh/sshd_config
 grep -i '^[^#].*yes$' /etc/ssh/sshd_config
 
 
-
-Here are a few example to entice you into learning more about regular expressions.

@@ -15,6 +15,3 @@ grep -i storage /etc/systemd/journald.conf
 sudo systemctl restart systemd-journald
 
 
-
-The systemd journal log amalgamates logs centrally and can be filtered using
-journalctl.

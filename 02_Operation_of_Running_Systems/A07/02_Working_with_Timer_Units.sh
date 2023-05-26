@@ -30,4 +30,3 @@ sudo reboot
 systemctl list-timers
 
 
-The analyze command that we saw previously can also be used to verify unit files.

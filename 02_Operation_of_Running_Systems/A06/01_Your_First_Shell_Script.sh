@@ -9,4 +9,3 @@ bash info.sh
 
 
 
-Making sure that we have fired up our working vagrant ubuntu1 system.

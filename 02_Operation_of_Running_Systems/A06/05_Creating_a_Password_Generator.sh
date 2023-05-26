@@ -15,8 +15,3 @@ done
 chmod -v a+x pwgen.sh
 
 
-
-We can use either WHILE or UNTIL loops to check conditions and keep looping until
-they are either true or false. We can also use conditionals within the loop to trigger it
-to end. In this example we use while, read and if statements and we will discover 
-more about these statements in the demo.

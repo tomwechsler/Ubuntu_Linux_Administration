@@ -17,5 +17,3 @@ ps
 
 
 
-Even when using compressions options, the tar command is independent of the 
-compression tool that is invoked.

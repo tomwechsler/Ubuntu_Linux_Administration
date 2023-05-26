@@ -23,5 +23,3 @@ find /etc -mmin +5 2>/dev/null
 
 find /etc -mmin -5 -type f 2>/dev/null
 
-The find command dynamically searches the given directory structure for files meeting the given criteria. 
-As well as printing we can run commands against each found file.

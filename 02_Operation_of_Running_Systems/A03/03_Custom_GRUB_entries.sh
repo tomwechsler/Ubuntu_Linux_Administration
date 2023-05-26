@@ -16,5 +16,3 @@ sudo update-grub
 #Open virtualbox and check new the grub entry
 
 
-We can add custom GRUB entries to the 40_custom file. We can use the editor that we are most
-comfortable with. We can copy entries from /boot/grub/grub.cfg as a starting point.

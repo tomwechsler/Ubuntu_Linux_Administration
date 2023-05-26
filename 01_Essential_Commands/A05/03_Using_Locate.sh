@@ -26,5 +26,3 @@ locate -eibr '^hosts$'
 #Update the locate db
 sudo updatedb
 
-Rather than dynamically searching the complete filesystem we can search a database for
-efficient operation.

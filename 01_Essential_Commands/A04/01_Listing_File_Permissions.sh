@@ -21,5 +21,3 @@ stat -c %a /etc/services
 
 stat -c %A /etc/services
 
-Listing files with the -l options we can see more metadata from the file. This includes the file type, permissions, link count,
-ownership, file size and the last modified time. The command stat can be also be used to view this data.

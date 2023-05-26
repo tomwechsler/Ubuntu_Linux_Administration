@@ -22,5 +22,3 @@ exit
 #Remove the .iso File and start the VM
 
 
-If GRUB itself has become corrupt, then it needs to be reinstalled. We can down load the ISO file
-and boot to this to get an OS to run.

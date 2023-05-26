@@ -23,4 +23,3 @@ ls /etc
 at -c 1
 
 
-The atd can be used to scheduled tasks that are not needed on a regular basis.

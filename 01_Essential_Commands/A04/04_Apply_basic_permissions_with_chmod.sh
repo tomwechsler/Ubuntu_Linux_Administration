@@ -28,7 +28,5 @@ chmod -v o= new_file
 chmod -v g-w new_file
 
 
-The command chmod, change mode, is used to adjust the file permissions. Using the option -v we are able to display both
-the current and newly assigned permissions. We can use either octal or symbolic notation.
 
 
