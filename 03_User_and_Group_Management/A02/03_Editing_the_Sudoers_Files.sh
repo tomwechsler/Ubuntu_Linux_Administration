@@ -17,4 +17,3 @@ bob ubuntu1=(root) NOPASSWD: ALL
 
 
 
-We illustrate 3 entries that you may be able to use.
