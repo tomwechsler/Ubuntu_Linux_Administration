@@ -32,7 +32,3 @@ vim users
 sudo chpasswd < users
 
 
-
-Although we are used to the passwd command, we have to enter a users password twice to set
-it. If we are creating many users, it is not the best idea. To script password management we
-have chpasswd.

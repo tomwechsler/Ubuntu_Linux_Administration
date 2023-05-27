@@ -60,14 +60,3 @@ w3m www.local
 
 
 
-
-The main Apache configuration file is /etc/apache2/apache2.conf. Rather than just one big file,
-Debian breaks the configuration into smaller elements, which can easily be enabled and
-disabled.
-
-The ServerName directive needs to be set for each virtual host and in the main, global
-configuration. It will always show as a warning is it is not set. We can test configuration with
-apache2ctl.
-
-The default location for web pages is /var/www/html we can add out own simple content. As we
-are not changing the configuration, there is no need to restart apache.

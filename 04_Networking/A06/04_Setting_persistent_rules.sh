@@ -28,7 +28,3 @@ sudo iptables -L
 
 
 
-Firewall rules we want to persist should be stored in the file /etc/iptables/rules.v4 to be
-accessed by the service unit. We can clear the counters before saving ensuring they are not
-stored in the file. Do not store firewall rules if they have caused problems in the runtime
-configuration.

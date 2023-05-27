@@ -36,6 +36,3 @@ w3m localhost/server-status
 w3m www/server-status
 
 
-
-The status page should not be accessible to everyone. It already has a commented line that we
-can adjust to restrict just to the webserver itself.

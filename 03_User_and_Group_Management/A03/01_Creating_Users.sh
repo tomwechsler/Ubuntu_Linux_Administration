@@ -28,6 +28,3 @@ id user2
 
 
 
-New users can be created using the command useradd. We need to elevate our permissions
-using sudo. An account will be created by using the defaults but we may prefer to add options
-as we will see.

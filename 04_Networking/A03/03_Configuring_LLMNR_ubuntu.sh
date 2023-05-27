@@ -57,7 +57,3 @@ dig ubuntu2
 
 
 
-Local-Link Multicast Name Resolution: If this is enabled on systems, name resolutions can be
-made simple on local area networks. Multicast requests are sent on the network for hostnames,
-servers can respond if they match the request. This needs to be enabled on all systems you
-want names resolved.

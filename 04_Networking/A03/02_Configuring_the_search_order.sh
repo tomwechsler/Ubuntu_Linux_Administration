@@ -42,6 +42,3 @@ getent hosts
 
 
 
-Name services can be located through database names in the /etc/nsswitch.conf. This includes
-users, as well as hosts. Changing the search order can prevent simple attacks. On Ubuntu, we
-also have to change the local DNS server not to read the hosts file.

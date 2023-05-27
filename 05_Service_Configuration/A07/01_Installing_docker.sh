@@ -30,5 +30,3 @@ docker run hello-world
 docker info | head
 
 
-The docker package is part of the standard repositories in Ubuntu. As a simple test the
-hello-world image can be executed as root to prove Docker is working.

@@ -45,8 +45,3 @@ w3m www
 
 
 
-It is easy to install the web server. As well as the standard site we have other pages available
-including documentation and status pages.
-
-Within DNS we can create CNAME entries to resolve to another name. Adding a record for www
-allows us to access the host from any system as www.local.

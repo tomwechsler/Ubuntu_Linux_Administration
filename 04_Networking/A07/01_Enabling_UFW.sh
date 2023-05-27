@@ -30,9 +30,3 @@ iptables -L
 
 
 
-
-The main command is ufw, status will show the current settings, we can add the numbered
-option which can be useful when deleting rules or the verbose option to print more details.
-
-Default inbound rules block all new traffic. Be careful when enabling UFW to check your access
-is not denied.

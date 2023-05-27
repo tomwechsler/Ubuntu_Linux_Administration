@@ -53,6 +53,3 @@ docker image pull mysql
 docker image ls
 
 
-Images come from the Docker Image registry at hub.docker.com. The image is cloned to running
-containers as needed. Images are files in the file system based on the image id, but they are
-located by the image tag and additional tags can be assigned to the same image.

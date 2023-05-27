@@ -31,5 +31,4 @@ ss -ntl
 
 
 
-For additional security, MariaDB listens only to the local interface by default. By editing the
-configuration, we can open it to all interfaces.
+

@@ -55,6 +55,3 @@ ping -c 3 192.168.57.102
 
 
 
-Ubuntu uses netplan to manage networking configuration. The files are written in YAML.
-We can add new IP addresses to netplan to persist the network configuration, even with the
-ability to have an automated rollback in the event of a misconfiguration.

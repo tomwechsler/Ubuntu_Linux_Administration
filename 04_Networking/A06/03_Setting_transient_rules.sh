@@ -23,8 +23,3 @@ sudo iptables -nvL
 #Do not forget the configuration is not yet permanent!
 
 
-
-Firewall rules reside in memory. For the moment, we only want allow our client IP address to
-SSH. We can check the IP used from who. Additionally, we need to allow established and related
-connections as often we connect to different ports once a connection is made, we also need to
-allow access from the localhost to all services. Rules are read in order with the DROP last.

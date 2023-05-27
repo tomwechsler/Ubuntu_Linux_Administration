@@ -47,8 +47,3 @@ echo "Hello" | mail webmaster -s Message
 mail
 
 
-
-For ease of configuration, we can rerun the installation menu using dpkg-reconfigure. It will ask
-extra questions on the reconfigure. We can configure local networks to act as a mail relay for
-and if we want to listen on all IP versions. Aliases can redirect message for users such as root. If
-the file exists, delete it to allow the menu to recreate it.

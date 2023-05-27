@@ -30,6 +30,3 @@ docker container run -d --name web -p 8000:80 -v /home/vagrant/web/:/usr/share/n
 curl localhost:8000 
 
 
-
-Often, we need containers to host services. We can make life easier for use by mapping ports to
-the container and volumes.

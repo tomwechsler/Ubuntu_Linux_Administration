@@ -33,8 +33,3 @@ nmap -oG grepable.txt 192.168.56.0/24
 
 grep "Host: 192.168.56.102" grepable.txt
 
-
-Connecting to a service across the network requires the service to be started and listening on a
-port. The port can be managed via the TCP or UDP transport layer protocol. A good starting
-audit on any system is to list the TCP and UDP ports that are open. Installing a port scanning
-tool such as nmap can be useful to list common ports found on internet systems.

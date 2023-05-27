@@ -47,8 +47,3 @@ sudo systemctl restart bind9
 dig www.winsolution.ch
 
 
-
-We can secure the DNS server by disallowing zone transfers and allowing queries only from our
-known networks.
-
-Before restarting the service, we can check the configuration.

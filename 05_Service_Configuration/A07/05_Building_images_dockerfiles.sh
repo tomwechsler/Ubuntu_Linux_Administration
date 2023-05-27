@@ -34,6 +34,3 @@ docker container rm -f web
 
 
 
-A Dockerfile (withuppercase D) can be used to specify the build of a new image. Dont forget
-the . at the end of the build command indicating the current directory. Here, we add the web
-content to the image, eliminating the need to map a volume but affording less flexibility.

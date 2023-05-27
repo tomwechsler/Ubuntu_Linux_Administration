@@ -25,7 +25,4 @@ cat /etc/iptables/rules.v4
 
 
 
-The command iptables can be used to manage the host based netfilter firewall. These are kernel
-modules that are present by default but without active rules. We can install additional packages
-to allow ease of access to systemd service unit to load rules on boot.
 

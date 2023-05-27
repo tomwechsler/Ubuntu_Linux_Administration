@@ -41,7 +41,3 @@ sudo mail
 
 
 
-
-To send and deliver mail we need an MTA as a minimum. The Postfix server is a command MTA
-and will listen on TCP port 25. Using the mail client, part of mailutils, we can connect to local
-MTA and our own mailbox.

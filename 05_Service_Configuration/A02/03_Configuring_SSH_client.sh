@@ -39,6 +39,3 @@ ssh ubuntu2
 exit
 
 
-With tab completion at the command line, we can view available options and possible values. To
-persist a configuration, we can set the /etc/ssh/ssh_config globally or for individual users in the
-~/.ssh/config file. Ensure that this file is kept private to the user.

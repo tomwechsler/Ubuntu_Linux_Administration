@@ -56,11 +56,3 @@ cat /etc/resolv.conf
 dig
 
 
-
-BIND is a popular DNS server and we will install this on Ubuntu2. We configure the local resolver
-to the local bind server.
-
-If we do not need IPv4, we can configure IPv4 only on the DNS Server, (Ubuntu 2)
-
-Having local servers resolve hostname from a central server in the datacenter is most efficient
-and secure. Use the address of Ubuntu2 as the nameserver entry.

@@ -44,7 +44,3 @@ sudo iptables -S
 curl 192.168.56.101
 
 
-
-Previously, we appended rules to the chain. With the last rules being the DROP rule appending
-is not an option. We need to insert at a given line number. We can also delete rules. Personally, I
-find it easier to edit the rule file and restore it.

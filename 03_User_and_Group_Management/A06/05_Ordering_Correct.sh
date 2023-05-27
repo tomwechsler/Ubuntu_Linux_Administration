@@ -8,4 +8,3 @@ sudo pam_tally2 -u alf
 
 
 
-Having the tally module set early on the bad login is registered before access is denied.

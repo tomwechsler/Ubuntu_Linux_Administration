@@ -25,6 +25,3 @@ sysctl -ar ip_forward
 
 
 
-To forward packets for other hosts to remote networks, those networks that you are not
-connected to, routing must be configured. We can store the setting in the /etc/sysctl.conf or
-the /etc/sysctl.d/

@@ -18,5 +18,3 @@ su - alf
 exit
 
 
-
-Adding the common-session file, the entry is available to all services.

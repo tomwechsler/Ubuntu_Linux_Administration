@@ -52,8 +52,3 @@ dig
 
 
 
-By default, each Ubuntu is its own DNS Server. Requests are made to the local ip and
-resolved from the internet. In an enterprise, there is no need for each system to resolve from
-the internet.
-
-To read the settings from netplan we need to relink the /etc/resolv.conf.

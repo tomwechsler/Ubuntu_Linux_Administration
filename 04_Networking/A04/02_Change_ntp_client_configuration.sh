@@ -27,6 +27,3 @@ timedatectl show-timesync
 
 
 
-
-Configuring the NTP server to sync with, is a simple edit of the configuration file. Again, we can
-manage this without the need of using systemctl to restart the service.

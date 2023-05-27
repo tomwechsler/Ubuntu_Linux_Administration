@@ -43,4 +43,3 @@ cat .bash_logout
 
 
 
-Installing the package bash-doc will add example login scripts.

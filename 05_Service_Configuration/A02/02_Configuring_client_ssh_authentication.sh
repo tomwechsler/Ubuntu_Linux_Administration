@@ -41,7 +41,3 @@ sudo systemctl restart sshd.service
 #Exit the session
 exit
 
-
-As well as being more secure, key based authentication is more convenient. Even with a
-passphrase to the private key we can cache the passphrase fort ease of use. We can turn off
-password authentication on the server once we have keys established.

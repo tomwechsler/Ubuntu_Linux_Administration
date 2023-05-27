@@ -25,5 +25,3 @@ ping 192.168.2.1
 
 
 
-
-Adding the route to netplan on Ubuntu 1 the knowledge on the remote network is retained.

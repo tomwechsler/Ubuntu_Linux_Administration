@@ -52,11 +52,3 @@ mysql -h 192.168.56.102 -u brent -pPassword1 sales
 -> exit
 
 
-
-A database server, will host databases, the name gives it away! A database will contain tables,
-but we will just look at the first level database.
-
-If access is required from remote hosts, we can create other users than root. Users have a host
-portion to define where they can login from. If it is % they can login in from any host. Here we
-restrict to the local subnet. We can test locally but also install the mariadb-client in Ubuntu1
-for a better test.

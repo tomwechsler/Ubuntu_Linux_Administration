@@ -32,6 +32,3 @@ sudo timedatectl set-ntp true
 sudo systemctl status systemd-timesyncd 
 
 
-
-By default, Ubuntu makes use of the NTP client-only systemd-timesyncd; giving systems a
-smaller footprint and increased security. The NTP client can be managed via timedatectl.

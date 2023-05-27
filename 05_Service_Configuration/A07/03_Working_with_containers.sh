@@ -65,6 +65,3 @@ docker container ls -a ; docker container prune
 
 
 
-Containers are cloned from images with the docker run command. Assign a name to the
-container to avoid auto-generated name. The Ubuntu image runs bash by default and exit will
-stop the container. To keep the container running use CTRL+pq.

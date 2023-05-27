@@ -43,9 +43,3 @@ sudo tail /var/log/apache2/access.log
 
 
 
-The default access log is customized via the main apache2.conf and the log settings from
-"customlog". We can create are own named entries for log configuration. The referer variable is
-the page the user was referred from.
-
-We can add our own LogFormat entry and test the access log. In the example we remove the
-use and remote log which are often empty.

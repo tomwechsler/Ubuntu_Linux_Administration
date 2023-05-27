@@ -22,7 +22,3 @@ sudo mysql -u root mysql
 
 
 
-MariaDB is a community developed fork of the MySQL RDBMS. The project is led by the original
-MySQL developer Michael "Monty" Widenius and is intended to keep the database free and
-open-source. Installing the server will also install the client, by default the root user is secured
-as it only supports UNIX socket authentication.

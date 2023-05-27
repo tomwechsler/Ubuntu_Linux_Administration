@@ -30,7 +30,3 @@ ip route show
 
 
 
-On Ubuntu 2 we can add an additional IP address, 192.168.2.1. On Ubuntu 1 we are not
-connected to that network and do not know how to connect to the network. Adding a route to
-Ubuntu 1, we can connect. This is in memory only and will be lost on startup or running netplan
-again.
