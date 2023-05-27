@@ -33,6 +33,3 @@ tail -n1 /etc/mdadm/mdadm.conf
 update-initramfs -u
 
 
-
-RAID devices are managed using the mdadm command. We also need to update the initramfs to
-support RAID on boot. We add the RAID drivers to the ramdisk file used on boot.

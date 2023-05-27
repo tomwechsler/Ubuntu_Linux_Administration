@@ -31,6 +31,4 @@ lsblk
 
 
 
-The parted command can be used non-interactively to create partition tabled and partitions
-and print the results. We can run them as 3 separate commands, or as here, as one command.
 

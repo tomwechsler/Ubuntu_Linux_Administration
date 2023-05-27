@@ -15,8 +15,3 @@ pvs
 
 
 
-
-We do not need to set the partitions type to LVM when partitioning a disk, but it does help
-document the purpose of the partition. It had no effect on how LVMs are used on the system.
-Setting the LVM flag does not make the partition a Physical Volume as shown by the pvs
-command.

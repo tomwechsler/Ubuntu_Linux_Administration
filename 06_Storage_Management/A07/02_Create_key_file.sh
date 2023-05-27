@@ -28,7 +28,3 @@ umount /mnt
 
 
 
-We can use a key file to unlock encrypted partitions. We will use the smaller /dev/sdd as our key
-partition. The idea being that this would be removable media and we can then only access the
-encrypted data if the removable media is attached. Employees should never store the
-removable media with their laptops for security.

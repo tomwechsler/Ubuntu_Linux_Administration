@@ -27,6 +27,3 @@ wipefs -a --force /root/disk3
 
 
 
-
-We can reuse the files we created for swap. Turning swap off and removing the entry from the
-fstab file.

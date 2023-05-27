@@ -31,8 +31,5 @@ cat /proc/mdstat
 
 
 
-We will create two new disk files which we can later use for RAID. On each disk we will create a
-partition that as marked to be used with RAID. This, like LVM, is more documenting the system
-rather than and actual requirement. RAID devices are defined in the /proc/mdstat file which
-should not have any devices.
+
 

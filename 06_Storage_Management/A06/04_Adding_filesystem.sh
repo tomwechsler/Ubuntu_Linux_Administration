@@ -45,7 +45,3 @@ sudo -i
 df -h -x devtmpfs -x tmpfs
 
 
-
-RAID devices are mounted in the same way as other filesystems. There is an argument the the
-device name is assigned in the configuration file allowing us to use the device name in-place of
-the UUID. The UUID is still a reliable mechanism.

@@ -38,6 +38,3 @@ cryptdisks_stop data
 
 
 
-To help automate securing the data we can use a keyfile. This though should never be stored on
-the same system. For us, we can pretend the the keyfile from /dev/ssd is in fact a removable
-drive. The /etc/crypttab files is used to create the mapping and reference the keyfile.

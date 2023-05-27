@@ -72,6 +72,3 @@ swapon -s
 
 
 
-Swap, or virtual ram, can make use of disks partitions or swap files; not just loop devices as we
-have created so far. We can add swap metadata using mkswap and mount/umount swap with
-swapon/swapoff.

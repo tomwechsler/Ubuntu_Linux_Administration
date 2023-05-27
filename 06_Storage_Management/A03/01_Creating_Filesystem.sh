@@ -27,7 +27,3 @@ lsblk -f
 
 
 
-
-The command mkfs create for formate partitions into filesystems. A filesystem consists of the
-metadata about what and where files can be stored. We can use the option -t for the filesystem
-type or use the wrapper program.

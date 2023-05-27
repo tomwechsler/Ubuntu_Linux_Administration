@@ -34,7 +34,3 @@ sudo chmod 1777 /shared_xfs
 ls -ldi /shared_*
 
 
-
-Mount points begin as directories in the Linux root filesystem. When mounted they inherit the
-root file of the target filesystem becoming different files. The desired permissions should be set
-on the mounted filesystem and not the unmounted mount point.

@@ -29,4 +29,3 @@ cat /proc/sys/vm/swappiness
 
 
 
-We can tune how much the kernel is likely to swap using sysctl.

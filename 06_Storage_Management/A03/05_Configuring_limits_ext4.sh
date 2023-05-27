@@ -77,7 +77,3 @@ repquota -uv /shared_ext4
 sudo -u vagrant fallocate -l 4M /shared_ext4/file3
 
 
-
-Using EXT4, quotas is a little more complex. We need to make sure that we have the correct
-modules installed. The latest version of the kernel will be installed with the modules. We need to
-reboot to make sure that kernel is loaded and install the new modules and tools.

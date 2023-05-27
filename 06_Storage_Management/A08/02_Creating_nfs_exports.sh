@@ -31,6 +31,3 @@ ls -l remotefile
 
 
 
-
-The NFS servers allows us to share filesystems are part thereof. We can define shares in the
-/etc/exports file or dynamically from the the command line with exportssfs.

@@ -21,7 +21,3 @@ pvdisplay
 
 
 
-Physical volumes are the foundation of LVMs. The command 'pvs'retrieves physical volume
-information from memory, while 'pvscan' scans attached disks. Typically, 'pvs' is used unless new
-disks have been added to the system. If the command is not available on your system, you need
-to install the 'lvm2'package.

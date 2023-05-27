@@ -20,7 +20,3 @@ ls -l /shared_lvm
 
 
 
-If space becomes low in a logical volume, we can increase its size to the amount available in the
-volume group. If more space is required in the volume group, we can add PVs to it. The option -l
-specifies the number of extents to extend by, using this option we can use all available space in
-the VG. The option -r resizes the filesystem even whilst it is online.

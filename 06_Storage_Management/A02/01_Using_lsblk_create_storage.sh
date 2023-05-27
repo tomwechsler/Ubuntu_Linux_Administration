@@ -42,12 +42,3 @@ lsblk
 
 
 
-
-Block devices are special device files that connect the kernel module to the physical storage.
-When looking at the device file the normal file size is replaced with module information. The
-major number is assigned by the Linux Kernel organization to the module developers who
-maintain the minor version.
-
-Disk files can be used as block devices and in some distributions, including Ubuntu, it is
-common to see them in use. We can also create out own files and link them to loop block
-devices.

@@ -29,6 +29,3 @@ sudo -i
 mdadm -D /dev/md0
 
 
-
-You can create your own service unit or use the one supplied and 
-modify it if you use a different loop device or backend file.

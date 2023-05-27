@@ -21,6 +21,4 @@ ss -ntl
 
 
 
-Configuring NFSv4 only helps secure NFS through firewalls, only needing TCP port 2049
-opened.
 

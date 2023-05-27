@@ -29,7 +29,3 @@ vgdisplay #Metadata is set to 3 (2 Metadata areas on p1 and 1 metadata area on p
 
 
 
-When creating a volume group, the default extent size is 4K representing the minimum size
-volume and be extended by. We can set the physical extent size when creating a volume group.
-We can add additional storage to a volume group by extending it. If the storage is not already a
-PV, the PV will be automatically created.

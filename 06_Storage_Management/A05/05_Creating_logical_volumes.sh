@@ -33,7 +33,3 @@ df -h /shared_lvm
 
 
 
-
-Creating a logical volume initiates a new block device which we can access via a symlink
-located in /dev/mapper. We can treat this as any other block device. adding a filesystem and
-mounting it.

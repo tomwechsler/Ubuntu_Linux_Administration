@@ -18,8 +18,3 @@ mount /shared_crypt
 ls /shared_crypt
 
 
-
-We can allow the user to mount the encrypted device and have it set to only mount manually.
-On a reboot the device will be decrypted by the key file and systemd ans as a user I can mount
-the data when needed. Remember though, this is a demonstration and the key file always
-should be on a different device.

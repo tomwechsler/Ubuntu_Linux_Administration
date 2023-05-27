@@ -74,8 +74,3 @@ xfs_quota -x -c 'report -i' /shared_xfs
 
 
 
-XFS quotas provide a way to monitor and control the usage of disk space on an XFS file system.
-These quotas are enabled by specifying certain mount options when the file system is mounted.
-The xfs_quota command is used to manage quotas and includes expert options (-x) that allow
-for advanced reporting of usage and setting of limits. Hard limits set an absolute restriction on
-usage, while soft limits can be exceeded temporarly during a configurable grace period.
